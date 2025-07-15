@@ -1,0 +1,10 @@
+platform :ios, '12.0'
+use_frameworks!
+
+target 'QuanYuExample' do
+  # 使用本地SDK进行测试
+  pod 'QuanYu', :path => '../'
+  
+  # 或者使用发布版本
+  # pod 'QuanYu', '~> 1.0.0'
+end

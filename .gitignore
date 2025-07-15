@@ -1,0 +1,12 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# CocoaPods
+Example/Pods/
+Example/Podfile.lock
+
+# macOS
+.DS_Store
