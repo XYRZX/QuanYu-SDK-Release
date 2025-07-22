@@ -9,7 +9,7 @@ QuanYu是一个强大的iOS WebSocket通信SDK，提供简单易用的实时通�
 在你的 `Podfile` 中添加：
 
 ```ruby
-pod 'QuanYu', '~> 1.0.0'
+pod 'QuanYu', '~> 1.0.3'
 ```
 
 然后运行：
