@@ -8,9 +8,17 @@
 		<data>
 		uUb/PsYLebiXQNT739bdrXTnfyY=
 		</data>
+		<key>Headers/QuanYuLoginModel.h</key>
+		<data>
+		SkOFtySNv1dEE/oasd8DTwLU9u0=
+		</data>
 		<key>Headers/QuanYuSocket.h</key>
 		<data>
 		U+NTHmaJTZwYDZsUj4Ur7t4uC1A=
+		</data>
+		<key>Headers/QuanYuUserModel.h</key>
+		<data>
+		pymMPcDhzFdxO/QNwxACSlYS/BM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -30,11 +38,25 @@
 			ghJIy4FUggQwvYCqk/UHnRO29XpCvIYxY4JjQx426/A=
 			</data>
 		</dict>
+		<key>Headers/QuanYuLoginModel.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Sh/q0bWxS6FvDvLdLYjPjw8LTJLJaoqCDOQyv2rk0/E=
+			</data>
+		</dict>
 		<key>Headers/QuanYuSocket.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			cXZmns9OeGQXevZctR92+I86BxcFkQM4J7nxBvw3Koo=
+			</data>
+		</dict>
+		<key>Headers/QuanYuUserModel.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qA8BteQTaDsVc+SChGXNpDBShzccHpRg1EpEB7aPfQA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
