@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/QuanYu.h</key>
 		<data>
-		f+xJIpVF8c+4w3jWYo27ESQLLwU=
+		uUb/PsYLebiXQNT739bdrXTnfyY=
 		</data>
 		<key>Headers/QuanYuSocket.h</key>
 		<data>
-		5vcagnRv7oiQzo3HMQFkEQRtR/U=
+		U+NTHmaJTZwYDZsUj4Ur7t4uC1A=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H3gcbpGfexCBN0S3k0bH8CKyA8U=
+		p2rkFTxa+OUnhuu25s+WaiPaUck=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,14 +27,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oeY7TzexjLBDun9/wAEdU1CQOUXM886wkBKxByZ5yTI=
+			ghJIy4FUggQwvYCqk/UHnRO29XpCvIYxY4JjQx426/A=
 			</data>
 		</dict>
 		<key>Headers/QuanYuSocket.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Wb3Z0M6G5dIoaoTpzEPF2O9JZX6OKbRwyAmYVTx5nw=
+			cXZmns9OeGQXevZctR92+I86BxcFkQM4J7nxBvw3Koo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

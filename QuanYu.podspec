@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "QuanYu"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.1"
   spec.summary      = "QuanYu WebSocket SDK for iOS"
   spec.description  = <<-DESC
                       QuanYu is a powerful WebSocket communication SDK for iOS applications.
@@ -16,10 +16,10 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/XYRZX/QuanYu-SDK-Release.git", :tag => "#{spec.version}" }
   
   # 使用预编译的XCFramework（推荐方式）
-  spec.vendored_frameworks = "Framework/QuanYu.xcframework"
+  spec.vendored_frameworks = ["Framework/QuanYu.xcframework", "Framework/PortSIPVoIPSDK.framework"]
   
   # 如果你想使用传统Framework，可以替换为：
-  # spec.vendored_frameworks = "Framework/QuanYu.framework"
+  # spec.vendored_frameworks = ["Framework/QuanYu.framework", "Framework/PortSIPVoIPSDK.framework"]
   
   # 系统框架依赖
   spec.frameworks = "Foundation", "CFNetwork", "Security"

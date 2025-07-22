@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "QuanYuLoginModel.h"
+#import "QuanYuUserModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -61,7 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)shared;
 
 // 登录
-- (void)login:( NSString * _Nonnull )loginUrl;
+- (void)login:(QuanYuLoginModel *)loginModel completion:(void(^)(BOOL success, NSString *errorMessage))completion;
 
 // 退出登录
 - (void)logout;

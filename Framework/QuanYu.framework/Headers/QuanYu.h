@@ -16,5 +16,7 @@ FOUNDATION_EXPORT const unsigned char QuanYuVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <QuanYu/PublicHeader.h>
 
-#import <QuanYu/QuanYuSocket.h>
+#import "QuanYuSocket/QuanYuSocket.h"
+#import "QuanYuSocket/QuanYuLoginModel.h"
+#import "QuanYuSocket/QuanYuUserModel.h"
 

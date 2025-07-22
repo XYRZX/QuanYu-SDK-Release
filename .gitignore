@@ -10,3 +10,6 @@ Example/Podfile.lock
 
 # macOS
 .DS_Store
+
+# Large third-party frameworks
+Framework/PortSIPVoIPSDK.framework/
