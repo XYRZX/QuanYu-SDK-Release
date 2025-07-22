@@ -51,10 +51,17 @@ manager.delegate = self;
 
 ## 📚 依赖库
 
+### 自动依赖（CocoaPods）
 - SocketRocket: WebSocket通信
 - Reachability: 网络状态监控
 
-*注意: 依赖库会通过CocoaPods自动安装，无需手动配置*
+### 手动依赖
+- **PortSIPVoIPSDK.framework**: VoIP通信功能
+  - 由于文件过大（247MB），无法通过CocoaPods自动安装
+  - 请从 [PortSIP官网](https://www.portsip.com) 下载最新版本
+  - 手动拖拽到项目中并添加到 "Frameworks, Libraries, and Embedded Content"
+
+*注意: 自动依赖库会通过CocoaPods自动安装，无需手动配置*
 
 ## 📄 许可证
 

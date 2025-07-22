@@ -16,10 +16,13 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/XYRZX/QuanYu-SDK-Release.git", :tag => "#{spec.version}" }
   
   # 使用预编译的XCFramework（推荐方式）
-  spec.vendored_frameworks = ["Framework/QuanYu.xcframework", "Framework/PortSIPVoIPSDK.framework"]
+  spec.vendored_frameworks = "Framework/QuanYu.xcframework"
   
   # 如果你想使用传统Framework，可以替换为：
-  # spec.vendored_frameworks = ["Framework/QuanYu.framework", "Framework/PortSIPVoIPSDK.framework"]
+  # spec.vendored_frameworks = "Framework/QuanYu.framework"
+  
+  # 注意：PortSIPVoIPSDK.framework 由于文件过大，需要用户手动添加
+  # 请从 PortSIP 官网下载并手动集成到项目中
   
   # 系统框架依赖
   spec.frameworks = "Foundation", "CFNetwork", "Security"
