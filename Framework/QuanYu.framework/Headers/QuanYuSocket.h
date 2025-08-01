@@ -39,6 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param reason 错误原因
 - (void)onConnectFailedWithCode:(int)code WithReason:(NSString *)reason;
 
+
 @end
 
 
@@ -60,6 +61,9 @@ NS_ASSUME_NONNULL_BEGIN
 //代理
 @property (nonatomic, weak) id<QuanYuSocketDelegate > delegate;
 
+//日志开关 - 默认值NO（关闭）
+@property (nonatomic, assign) BOOL logEnabled;
+
 + (instancetype)shared;
 
 // 登录
@@ -73,6 +77,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 设置app保活方法 默认NO NO:不保活 YES:保活
 - (void)setupKeepAlive:(BOOL)sender;
+
+// 上传日志
+- (void)saveLog:(NSString *)event message:(NSString *)message;
+
+// 设置日志开关
+- (void)setLogEnabled:(BOOL)enabled;
+
+// 获取日志开关状态(默认关闭)
+- (BOOL)isLogEnabled;
 
 @end
 
