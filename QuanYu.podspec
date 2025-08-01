@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "QuanYu"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "QuanYu WebSocket SDK for iOS"
   spec.description  = <<-DESC
                       QuanYu is a powerful WebSocket communication SDK for iOS applications.
