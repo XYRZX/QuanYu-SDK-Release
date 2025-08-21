@@ -1,18 +1,18 @@
 Pod::Spec.new do |spec|
   spec.name         = "QuanYu"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.4"
   spec.summary      = "QuanYu WebSocket SDK for iOS"
   spec.description  = <<-DESC
                       QuanYu is a powerful WebSocket communication SDK for iOS applications.
                       Provides easy-to-use APIs for real-time communication.
                       DESC
 
-  spec.homepage     = "https://github.com/your-username/QuanYu-SDK-Release"
+  spec.homepage     = "https://github.com/XYRZX/QuanYu-SDK-Release"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "Your Name" => "your.email@example.com" }
+  spec.author       = { "XYRZX" => "1327642481@qq.com" }
   
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "https://github.com/your-username/QuanYu-SDK-Release.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/XYRZX/QuanYu-SDK-Release.git", :tag => "#{spec.version}" }
   
   # 使用预编译的XCFramework（推荐）
   spec.vendored_frameworks = "Framework/QuanYu.xcframework"
