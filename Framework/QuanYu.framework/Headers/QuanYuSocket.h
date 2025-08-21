@@ -64,6 +64,9 @@ NS_ASSUME_NONNULL_BEGIN
 //日志开关 - 默认值NO（关闭）
 @property (nonatomic, assign) BOOL logEnabled;
 
+//挂机后是否自动变空闲
+@property (nonatomic, assign, readonly) NSInteger hangupToFree;
+
 + (instancetype)shared;
 
 // 登录
@@ -74,6 +77,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 // 发送请求方法sendRequest
 - (void)sendRequestWithMessage:(NSString *)str;
+
+// 重新连接服务器
+- (void)reStarConnectServer;
 
 // 设置app保活方法 默认NO NO:不保活 YES:保活
 - (void)setupKeepAlive:(BOOL)sender;

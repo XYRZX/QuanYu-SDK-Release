@@ -52,6 +52,16 @@ NS_ASSUME_NONNULL_BEGIN
 /// 访问令牌
 @property (nonatomic, copy) NSString *token;
 
+/// 心跳间隔时间
+@property (nonatomic, assign) NSInteger intervalTime;
+
+/// 响应超时时间
+@property (nonatomic, assign) NSInteger timeoutTime;
+
+/// 挂机后是否自动变空闲
+@property (nonatomic, assign) NSInteger hangupToFree;
+
+
 /**
  * 从字典创建用户模型
  * @param dictionary 包含用户信息的字典
