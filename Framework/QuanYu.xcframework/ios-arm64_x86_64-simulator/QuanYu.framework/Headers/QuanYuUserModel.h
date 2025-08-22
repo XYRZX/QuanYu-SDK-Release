@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger cid;
 
 /// 用户代码
-@property (nonatomic, assign) NSInteger code;
+@property (nonatomic, assign) NSString *code;
 
 /// 是否启用IPPS
 @property (nonatomic, assign) NSInteger enableIpps;
