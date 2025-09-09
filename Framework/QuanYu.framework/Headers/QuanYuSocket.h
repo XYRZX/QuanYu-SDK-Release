@@ -49,6 +49,9 @@ NS_ASSUME_NONNULL_BEGIN
 //心跳时间间隔   - 默认值120
 @property (nonatomic, assign) int heartbeatInterval;
 
+//心跳超时时间间隔   - 默认值10
+@property (nonatomic, assign) int heartbeatTimeoutInterval;
+
 //最大重连时间间隔   - 默认值30
 @property (nonatomic, assign) int connectionRecoveryMaxInterval;
 
