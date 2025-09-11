@@ -6,5 +6,5 @@ target 'QuanYuExample' do
   pod 'QuanYu', :path => '../'
   
   # 或者使用发布版本
-  # pod 'QuanYu', '~> 1.0.8'
+  # pod 'QuanYu', '~> 1.0.9'
 end
