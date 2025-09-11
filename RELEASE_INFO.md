@@ -1,14 +1,25 @@
 # QuanYu SDK 发布信息
 
-## 版本: 1.0.0
-## 发布日期: 2025-08-20
+## 版本: 1.0.9
+## 发布日期: 2025-09-11
 
-### 包含文件:
-- QuanYu.xcframework (推荐使用)
-- QuanYu.framework (兼容性支持)
-- QuanYu.podspec (CocoaPods配置)
-- LICENSE (MIT许可证)
-- README.md (使用说明)
+### 变更摘要
+- 发布至 CocoaPods Trunk：QuanYu 1.0.9 已可用
+- Podspec 更新：version = 1.0.9，source.tag = 1.0.9
+- 规范校验：通过 `pod spec lint --allow-warnings` 验证
+
+### 包含文件
+- QuanYu.xcframework（推荐）
+- QuanYu.framework（兼容性支持）
+- QuanYu.podspec（CocoaPods 配置）
+- LICENSE（MIT 许可证）
+- README.md（使用说明）
+
+### 使用方式
+在 Podfile 中：
+```ruby
+pod 'QuanYu', '~> 1.0.9'
+```
 
 ### 支持架构:
 - arm64 (iOS设备)
