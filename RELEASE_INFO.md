@@ -1,12 +1,12 @@
 # QuanYu SDK 发布信息
 
-## 版本: 1.0.9
-## 发布日期: 2025-09-11
+## 版本: 1.0.11
+## 发布日期: 2025-09-26
 
 ### 变更摘要
-- 发布至 CocoaPods Trunk：QuanYu 1.0.9 已可用
-- Podspec 更新：version = 1.0.9，source.tag = 1.0.9
-- 规范校验：通过 `pod spec lint --allow-warnings` 验证
+- 发布至 CocoaPods Trunk：QuanYu 1.0.11 已可用
+- Podspec 更新：version = 1.0.11，source.tag = 1.0.11
+- 规范校验：通过 `pod trunk push --allow-warnings --skip-tests` 验证并发布
 
 ### 包含文件
 - QuanYu.xcframework（推荐）
@@ -18,7 +18,7 @@
 ### 使用方式
 在 Podfile 中：
 ```ruby
-pod 'QuanYu', '~> 1.0.9'
+pod 'QuanYu', '~> 1.0.11'
 ```
 
 ### 支持架构:
@@ -35,7 +35,7 @@ pod 'QuanYu', '~> 1.0.9'
 
 ### 下一步操作:
 1. 检查所有文件是否正确
-2. 更新 QuanYu.podspec 中的Git仓库地址
-3. 提交到Git仓库
-4. 创建版本标签
-5. 发布到CocoaPods
+2. 更新 QuanYu.podspec 中的 Git 仓库地址（如需）
+3. 提交到 Git 仓库
+4. 创建版本标签 1.0.11 并推送
+5. 发布到 CocoaPods（已完成）
